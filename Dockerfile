@@ -12,7 +12,7 @@ VOLUME /var/www/app/data
 VOLUME /var/www/app/plugins
 VOLUME /etc/nginx/ssl
 
-EXPOSE 80 443
+EXPOSE 80
 
 ARG VERSION
 
